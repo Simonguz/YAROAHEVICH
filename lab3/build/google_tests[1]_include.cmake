@@ -1,0 +1,5 @@
+if(EXISTS "/workspaces/YAROAHEVICH/lab3/build/google_tests[1]_tests.cmake")
+  include("/workspaces/YAROAHEVICH/lab3/build/google_tests[1]_tests.cmake")
+else()
+  add_test(google_tests_NOT_BUILT google_tests_NOT_BUILT)
+endif()
